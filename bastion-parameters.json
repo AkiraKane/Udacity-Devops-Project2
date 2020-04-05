@@ -1,0 +1,18 @@
+[
+  {
+    "ParameterKey": "KeyPair",
+    "ParameterValue": "bastion"
+  },
+  {
+    "ParameterKey": "EnvironmentName",
+    "ParameterValue": "UdacityDevops"
+  },
+  {
+    "ParameterKey": "InstanceType",
+    "ParameterValue": "t2.micro"
+  },
+  {
+    "ParameterKey": "MyIP",
+    "ParameterValue": "68.108.145.58/32"
+  }
+]
