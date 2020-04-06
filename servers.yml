@@ -71,7 +71,7 @@ Resources:
       ImageId: !Ref AMI
       IamInstanceProfile:
         Fn::ImportValue: !Sub ${EnvironmentName}-InstanceProfile
-      KeyName: !Ref KeyPair
+      # KeyName: !Ref KeyPair
       SecurityGroups:
         - Ref: WebServerSecGroup
       InstanceType: !Ref InstanceType
